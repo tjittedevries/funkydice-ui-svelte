@@ -4,10 +4,10 @@
   import Roll from "./Roll.svelte";
 </script>
 
-<div class="h-100 pa4 pr0 pt0">
+<div class="pa4 pr0 pt0 overflow-y-auto">
   <!-- rolls-container -->
   <h2 class="f6 b gray">rolls</h2>
-  <div class="h-100 overflow-y-auto pr4">
+  <div class="pr4">
     {#each $rolls as roll}
       <Roll {roll} />
     {/each}
