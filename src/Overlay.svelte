@@ -1,8 +1,6 @@
 <script>
   import { helpOpen } from "./stores";
 
-  console.log($helpOpen)
-
   function handleHelp() {
     helpOpen.update(state => !state)
   }

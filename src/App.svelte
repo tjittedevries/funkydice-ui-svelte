@@ -1,17 +1,9 @@
 <script>
-  import { funkydie } from 'funkydice'
-
   import Command from "./Command.svelte";
   import Overlay from "./Overlay.svelte";
   import Rolls from "./Rolls.svelte";
   import Toolbar from "./Toolbar.svelte";
   import Bottom from "./Bottom.svelte";
-
-  import { rolls } from './stores'
-
-  console.log("yolo", funkydie('1d6'))
-  console.log("rolls", rolls)
-
 </script>
 
 <div
@@ -25,6 +17,5 @@
     </div>
   </div>
   <Bottom />
-  
   <Overlay />
 </div>

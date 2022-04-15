@@ -7,7 +7,6 @@
     event.preventDefault();
     const roll = funkydie(command);
     rolls.update((store) => [roll, ...store]);
-    console.log($rolls);
   }
 </script>
 
